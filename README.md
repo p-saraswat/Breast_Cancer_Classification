@@ -47,6 +47,8 @@ the final model are shown below:
 <img width="392" alt="image" src="https://github.com/p-saraswat/Breast_Cancer_Classification/assets/121529081/d0de4128-8fc1-4121-8b03-43d2762478dd">
 
 
+
+
 **Logistic Regression:**
 
 ● Overfitting and Underfitting:
@@ -57,7 +59,9 @@ For C values in the range of 10-40, both the training and testing accuracies are
 around 97% and 96% respectively. For C values above 40, we see that the model performance is
 not very consistent.
 
+
 <img width="310" alt="image" src="https://github.com/p-saraswat/Breast_Cancer_Classification/assets/121529081/616245e3-06b4-4f5b-8d8e-cb56f27e85d9">
+
 
 *Predictive performance:*
 To find the best ‘C’, we used the ‘GridsearchCV’ function with ‘C’, and the optimal value of
@@ -65,11 +69,15 @@ To find the best ‘C’, we used the ‘GridsearchCV’ function with ‘C’, 
 accuracy of 96.4%.
 
 ● Model Goodness:
+
 <img width="446" alt="image" src="https://github.com/p-saraswat/Breast_Cancer_Classification/assets/121529081/0c8dce30-664a-44ff-a9c6-f950397aa23b">
 
 
+
 K-Nearest Neighbours:
+
 ● Overfitting and Underfitting:
+
 <img width="437" alt="image" src="https://github.com/p-saraswat/Breast_Cancer_Classification/assets/121529081/27e5fdc9-b9b0-43b8-be47-7c00dccee332">
 
 Below K = 5, the test accuracy is very poor which suggests that the model is underfitting.
